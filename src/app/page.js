@@ -4,6 +4,7 @@ import Like from "../_components/Like";
 import Comment from "../_components/Comment";
 import Post from "../_components/Post";
 import Header from "../_components/Header";
+import "./home.css"
 
 export default async function Home() {
   return (

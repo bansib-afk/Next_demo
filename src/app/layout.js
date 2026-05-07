@@ -1,3 +1,4 @@
+// export const dynamic = "force-dynamic"
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ThemeProvider from "@/_context/ThemeContext";
@@ -27,6 +28,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  //   const randomnumber = Math.random();
+  // console.log(randomnumber);
+
+  // if (randomnumber > 0.5) {
+  //   throw new Error("Error Occured");
+  // }
   return (
     <html
       lang="en"

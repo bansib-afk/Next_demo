@@ -5,8 +5,16 @@ export const metadata = {
 
 
 export default function BlogLayout({ children }) {
+  // This is the manual error 
+  // const randomnumber = Math.random();
+  // console.log(randomnumber);
+
+  // if (randomnumber > 0.5) {
+  //   throw new Error("Error Occured");
+  // }
   return (
     <div>
+      This is blog page
       {/* <h1>This is Blog Layout</h1> */}
       {/* here children point to the current page or current route based on current route it will render the page    */}
       {children}
