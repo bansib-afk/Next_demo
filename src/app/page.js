@@ -5,6 +5,16 @@ import Comment from "../_components/Comment";
 import Post from "../_components/Post";
 import Header from "../_components/Header";
 import "./home.css"
+import http from "http"
+
+
+const server = http.createServer((req, res) => {
+  res.end("hello from next server")
+})
+
+server.listen(4000, () => {
+  console.log("server started")
+})
 
 export default async function Home() {
   return (
